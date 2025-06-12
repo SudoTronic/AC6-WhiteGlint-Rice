@@ -9,3 +9,4 @@ Original Design and line trace included.
 
 
 Also includes fastfetch config reference.
+![image](https://github.com/user-attachments/assets/279d6c42-0b8d-4308-a5c9-b74786dcf504)
