@@ -1,0 +1,113 @@
+// backup of source: "source":   "    ___ ___ _____.___.____________________.____       _____    _______  ________     \n   /   |   \\\\__  |   |\\______   \\______   \\    |     /  _  \\   \\      \\ \\______ \\    \n  /    ~    \\/   |   | |     ___/|       _/    |    /  /_\\  \\  /   |   \\ |    |  \\   \n  \\    Y    /\\____   | |    |    |    |   \\    |___/    |    \\/    |    \\|    `   \\  \n   \\___|_  / / ______| |____|    |____|_  /_______ \\____|__  /\\____|__  /_______  /  \n         \\/  \\/                         \\/        \\/       \\/         \\/        \\/   \n",
+//    ___ ___  _____.___.____________________.____       _____      _____  ________   
+//   /   |   \ \__  |   |\______   \______   \    |     /  _  \    /     \ \______ \  
+//  /    ~    \/   |   | |     ___/|       _/    |    /  /_\  \  /   |   \ |    |  \ 
+//  \    Y    /\____   | |    |    |    |   \    |___/    |    \/    |    \|    `   \
+//   \___|_  / / ______| |____|    |____|_  /_______ \____|__  /\____|__  /_______  /
+//         \/  \/                         \/        \/       \/         \/        \/ 
+
+
+{
+    "logo": {
+        "type": "data",                                                                                 //Newline                                                                                         Newline                                                                                  Newline                                                                                     Newline                                                                                  Newline  
+        "source":   "    ___ ___ _____.___.____________________.____       _____    _______  ________     \n   /   |   \\\\__  |   |\\______   \\______   \\    |     /  _  \\   \\      \\ \\______ \\    \n  /    ~    \\/   |   | |     ___/|       _/    |    /  /_\\  \\  /   |   \\ |    |  \\   \n  \\    Y    /\\____   | |    |    |    |   \\    |___/    |    \\/    |    \\|    `   \\  \n   \\___|_  / / ______| |____|    |____|_  /_______ \\____|__  /\\____|__  /_______  /  \n         \\/  \\/                         \\/        \\/       \\/         \\/        \\/   \n",
+        "position": "top",
+        "padding":  { "right": 2 },
+        "color": {
+            "1": "white"
+        }
+    },
+    "display": {
+        "separator": "     ➮  ",
+        "constants": [
+            "‿︵‿︵‿︵‿︵‿︵‿︵‿︵‿︵‿︵‿︵‿︵‿︵‿︵‿",
+            "⌇\u001b[12C⌇\u001b[70C⌇\u001b[83D"
+        ],
+        "color": "white"
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "{$1} ⛥  {$1}",
+            "outputColor": "white"
+        },
+        {
+            "type": "custom",
+            "format":"{$2}"
+
+        },
+        {
+            "type": "os",
+            "key": "{$2} {icon} OS      ⌇",
+            "keyColor": "white"
+        },
+        {
+            "type": "cpu",
+            "key": "{$2} {icon} cpu     ⌇",
+            "keyColor": "white"
+        },
+        {
+            "type": "gpu",
+            "key": "{$2} {icon} GPU     ⌇",
+            "keyColor": "white"
+        },
+        {
+            "type": "Memory",
+            "key": "{$2} {icon} RAM     ⌇",
+            "keyColor": "white"
+        },
+        {
+            "type": "custom",
+            "format":"{$2}"
+
+        },
+        {
+            "type": "custom",
+            "format": "{$1}︵‿︵{$1}",
+            "outputColor": "white"
+        },
+        {
+            "type": "custom",
+            "format":"{$2}"
+
+        },
+        {
+            "type": "Shell",
+            "key": "{$2} {icon} SHELL   ⌇",
+            "keyColor": "white"
+        },
+        {
+            "type": "Terminal",
+            "key": "{$2} {icon} TERM    ⌇",
+            "keyColor": "white"
+        },
+        {
+            "type": "TerminalFont",
+            "key": "{$2} {icon} FONT    ⌇",
+            "keyColor": "white"
+        },
+        {
+            "type": "WM",
+            "key": "{$2} {icon} WM      ⌇",
+            "keyColor": "white"
+        },
+        {
+            "type": "Packages",
+            "key": "{$2} {icon} PACK#   ⌇",
+            "keyColor": "white"
+        },
+        {
+            "type": "custom",
+            "format":"{$2}"
+
+        },
+        {
+            "type": "custom",
+            "format": "{$1} ⛥  {$1}",
+            "outputColor": "white"
+        },
+        {"type": "break"}
+    ]
+}
+
+
