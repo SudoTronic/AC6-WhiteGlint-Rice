@@ -1,0 +1,6 @@
+[terminal]
+vt = 1
+
+[default_session]
+user = "hyper"
+command = "tuigreet  --width 120  --user-menu  --asterisks  --greeting '___ ___ _____.___.____________________.____       _____    _______  ________     \n   /   |   \\\\__  |   |\\______   \\______   \\    |     /  _  \\   \\      \\ \\______ \\    \n  /    ~    \\/   |   | |     ___/|       _/    |    /  /_\\  \\  /   |   \\ |    |  \\   \n  \\    Y    /\\____   | |    |    |    |   \\    |___/    |    \\/    |    \\|    `   \\  \n   \\___|_  / / ______| |____|    |____|_  /_______ \\____|__  /\\____|__  /_______  /  \n         \\/  \\/                         \\/        \\/       \\/         \\/        \\/   \n'  --theme 'border=red;text=red;prompt=magenta;time=red;action=red;button=white;container=black;input=white' --cmd hyprland "
